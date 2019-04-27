@@ -5,44 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Template</title>
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <div class="container-fluid">
-        <div class="col-12">
-            <div id="header">
-                <a class="logo" href="#" title="Template"></a>
+    <header id="content">
+        <a class="logo" href="#" title="Template"></a>
 
-                <ul class="nav text-uppercase">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
+        <ul class="navigation">
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="#" title="Features">Features</a></li>
+            <li><a href="#" title="About">About</a></li>
+            <li><a href="#" title="Service">Service</a></li>
+            <li><a href="#" title="Contact Us">Contact Us</a></li>
+        </ul>
+
+        <a class="header-menu-link" title="Menu"><i class="fas fa-bars"></i> Menu</a>
+
+        <ul id="menu">
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="#" title="Features">Features</a></li>
+            <li><a href="#" title="About">About</a></li>
+            <li><a href="#" title="Service">Service</a></li>
+            <li><a href="#" title="Contact Us">Contact Us</a></li>
+        </ul>
+
+        <div class="clear-both"></div>
+    </header>
+
+    <main id="content">
+        <div class="content-100p">
+            <div class="tl-slogan">
+                <p>SLOGAN</p><br>
+                <p>TEST 1</p><br>
+                <p>TEST</p>
             </div>
 
-            <div id="content"></div>
+            <div class="bg-social">
+                <a href="#" target="_blank" class="location"><i class="fas fa-map-marker-alt"></i></a>
+                <a href="#" target="_blank" class="phone"><i class="fas fa-phone rotation"></i></a>
+                <a href="#" target="_blank" class="mail"><i class="fas fa-envelope"></i></a>
+            </div>
 
-            <div id="footer"></div>
+            <img class="img-prod" src="./assets/img-prod.png" alt="Product" />
         </div>
-    </div>
+
+        <div class="content-100p">
+            <div class="bg-desc">
+                <p class="tl">Additional text</p>
+                <p class="txt">DEMO TEXT DEMO TEXT DEMO TEXT DEMO TEXT DEMO TEXT
+                    DEMO TEXT DEMO TEXT DEMO TEXT DEMO TEXT DEMO TEXT
+                </p>
+            </div>
+
+            <a class="btn-link" href="#" title="Search">Search</a>
+        </div>
+
+        <div class="clear-both"></div>
+    </main>
 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/mobile.js"></script>
 </body>
 
 </html>

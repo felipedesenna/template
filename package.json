@@ -5,7 +5,6 @@
   "author": "Felipe de Senna",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "jquery": "^3.4.0"
   }
 }
